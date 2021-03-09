@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout01</title>
+    <style>
+        body{background-color: #fff3e0;}
+        #wrap {
+                background-color: #ffe0b2;
+                width: 1200px;
+                margin: 0 auto; 
+                color: #fff;
+                font-size: 60px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            #header{
+                width: 1200px;
+                height: 100px;
+                line-height: 100px;
+                background: #ffcc80 ;
+            }
+            #nav{
+                width: 1200px;
+                height: 100px;
+                line-height: 100px;
+                background-color: #ffb74d ;
+            }
+            #side{
+                width: 400px;
+                height: 700px;
+                line-height: 700px;
+                background-color: #ffa726;
+                float: left; 
+            }
+            #contents{
+                width: 800px;
+                height: 700px;
+                line-height: 700px;
+                background-color: #ff9800;
+                float: left;
+            }
+            #footer{
+                width: 1200px;
+                height: 100px;
+                background-color: #fb8c00;
+                clear: both; <!--folat 사용을 박스가 깨진 부분에 clear : both을  사용하여 수정할 수 있다.-->
+            }
+    </style>
+</head>
+<body>
+    <!---1. 블록구조(박스개념)와 인라인구조(텍스트)-->
+    <!---2. ID/CLASS : 선택자-->
+    <!-- 이름을 더블클릭해서 복사 후 붙여넣기-->
+    <!--id = #으로 표기 후 코드 작성-->
+    <div id="wrap">
+        <div id="header">header</div>
+        <div id="nav">nav</div>
+        <div id="side">side</div>
+        <div id="contents">conternts</div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
